@@ -30,7 +30,7 @@ self.get = async function (req, res) {
 // POST: api/categorias
 self.create = async function (req, res) {
     try{
-        let dat = await categoria.create({
+        let data = await categoria.create({
             nombre: req.body.nombre
         })
         return res.status(201).json(data)
