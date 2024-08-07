@@ -1,0 +1,23 @@
+GET http://localhost:3000/api/usuarios
+
+###
+
+GET http://localhost:3000/api/usuarios/2
+
+###
+
+POST http://localhost:3000/api/usuarios
+Content-Type: application/json
+
+{
+    "username": "Categoria de prueba",
+    "password": "patito",
+    "nombre": "Patito2",
+    "rol": "Administrador"
+}
+
+###
+
+GET http://localhost:3000/api/categorias
+
+###
